@@ -1,39 +1,98 @@
 [
     {
-        "name": "Основные платформы",
+        "name": "ЮУрГУ",
         "terms": [
             {
-                "group": "Программирование",
-                "term": "Весна 2024",
-                "full_name": "Веб-разработка 2024",
-                "short_name": "WEB-2024",
-                "base_url": "https://platform.com/course1",
-                "tg_url": "https://t.me/course1",
-                "attendance_url": "https://platform.com/attendance1",
-                "journal_url": "https://platform.com/journal1"
+                "group": "",
+                "term": "3",
+                "full_name": "Иностранный язык",
+                "short_name": "",
+                "base_url": "https://edu.susu.ru/course/view.php?id=206683",
+                "tg_url": "https://t.me/c/2169367750/5/2769",
+                "attendance_url": "https://edu.susu.ru/mod/attendance/view.php?id=8324829",
+                "journal_url": "https://studlk.susu.ru/ru/StudyPlan/OpenJournal/1ea871d2-a80b-43d3-b125-ff981128c17d"
+            },{
+                "group": "",
+                "term": "3",
+                "full_name": "Компьютерная графика",
+                "short_name": "",
+                "base_url": "https://edu.susu.ru/course/view.php?id=201714",
+                "tg_url": "https://t.me/c/2169367750/2763/2764",
+                "attendance_url": "https://edu.susu.ru/mod/attendance/view.php?id=8114462",
+                "journal_url": "https://studlk.susu.ru/ru/StudyPlan/OpenJournal/16873582-c0ff-461d-8079-6b96f802110b"
+            },{
+                "group": "",
+                "term": "3",
+                "full_name": "Конструкция автомобилей и тракторов",
+                "short_name": "",
+                "base_url": "https://edu.susu.ru/course/view.php?id=202094",
+                "tg_url": "https://t.me/c/2169367750/9/2775",
+                "attendance_url": "https://edu.susu.ru/mod/attendance/view.php?id=8122695",
+                "journal_url": "https://studlk.susu.ru/ru/StudyPlan/OpenJournal/22c56f1a-23d2-48cb-8f99-3bc2ee2c9f3c"
+            },{
+                "group": "",
+                "term": "3",
+                "full_name": "Основы научных исследований",
+                "short_name": "",
+                "base_url": "https://edu.susu.ru/course/view.php?id=202003",
+                "tg_url": "https://t.me/c/2169367750/2771/2772",
+                "attendance_url": "https://edu.susu.ru/mod/attendance/view.php?id=8120961",
+                "journal_url": "https://studlk.susu.ru/ru/StudyPlan/OpenJournal/73303533-dd00-4ad3-a6cd-110c49c8054a"
+            },{
+                "group": "",
+                "term": "3",
+                "full_name": "Специальные главы математики",
+                "short_name": "",
+                "base_url": "https://edu.susu.ru/course/view.php?id=203079",
+                "tg_url": "https://t.me/c/2169367750/2765/2766",
+                "attendance_url": "https://edu.susu.ru/mod/attendance/view.php?id=8177793",
+                "journal_url": "https://studlk.susu.ru/ru/StudyPlan/OpenJournal/9101cb0f-1626-4876-9084-ae75c1a8d2fe"
+            },{
+                "group": "",
+                "term": "3",
+                "full_name": "Теоретическая механика",
+                "short_name": "",
+                "base_url": "https://edu.susu.ru/course/view.php?id=201719",
+                "tg_url": "https://t.me/c/2169367750/2760/2761",
+                "attendance_url": "https://edu.susu.ru/mod/attendance/view.php?id=8114671",
+                "journal_url": "https://studlk.susu.ru/ru/StudyPlan/OpenJournal/f593417f-29a9-4fc5-87a6-30d8a490c2c4"
+            },{
+                "group": "",
+                "term": "3",
+                "full_name": "Физика",
+                "short_name": "",
+                "base_url": "https://edu.susu.ru/course/view.php?id=201722",
+                "tg_url": "https://t.me/c/2169367750/1393/2757",
+                "attendance_url": "https://edu.susu.ru/mod/attendance/view.php?id=8114824",
+                "journal_url": "https://studlk.susu.ru/ru/StudyPlan/OpenJournal/ce51fc2e-6990-4f73-9fd7-beb89a8e13c9"
             },
             {
-                "group": "Дизайн",
-                "term": "Весна 2024",
-                "full_name": "UI/UX Дизайн",
-                "short_name": "UIUX-2024",
-                "base_url": "https://platform.com/course2",
-                "tg_url": "https://t.me/course2",
-                "attendance_url": "https://platform.com/attendance2"
-            }
-        ]
-    },
-    {
-        "name": "Дополнительные курсы",
-        "terms": [
-            {
-                "group": "Маркетинг",
-                "term": "Лето 2024",
-                "full_name": "Digital Маркетинг",
-                "short_name": "DIGITAL-2024",
-                "base_url": "https://platform.com/course3",
-                "tg_url": "https://t.me/course3",
-                "journal_url": "https://platform.com/journal3"
+                "group": "",
+                "term": "3",
+                "full_name": "Физическая культура и спорт",
+                "short_name": "",
+                "base_url": "https://edu.susu.ru/course/view.php?id=208411",
+                "tg_url": "https://t.me/c/2169367750/836/2786",
+                "attendance_url": "",
+                "journal_url": "https://studlk.susu.ru/ru/StudyPlan/OpenJournal/92efeb5f-c973-43aa-bc92-0805bdecf780"
+            },{
+                "group": "",
+                "term": "3",
+                "full_name": "Фундаментальные дисциплины",
+                "short_name": "",
+                "base_url": "https://edu.susu.ru/course/view.php?id=208514",
+                "tg_url": "",
+                "attendance_url": "",
+                "journal_url": ""
+            },{
+                "group": "",
+                "term": "3",
+                "full_name": "Цифровая кафедра",
+                "short_name": "",
+                "base_url": "https://do.susu.ru/moodle/course/view.php?id=3830",
+                "tg_url": "https://t.me/c/2169367750/3093/3094",
+                "attendance_url": "",
+                "journal_url": ""
             }
         ]
     }
