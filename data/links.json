@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Основные платформы",
+        "terms": [
+            {
+                "group": "Программирование",
+                "term": "Весна 2024",
+                "full_name": "Веб-разработка 2024",
+                "short_name": "WEB-2024",
+                "base_url": "https://platform.com/course1",
+                "tg_url": "https://t.me/course1",
+                "attendance_url": "https://platform.com/attendance1",
+                "journal_url": "https://platform.com/journal1"
+            },
+            {
+                "group": "Дизайн",
+                "term": "Весна 2024",
+                "full_name": "UI/UX Дизайн",
+                "short_name": "UIUX-2024",
+                "base_url": "https://platform.com/course2",
+                "tg_url": "https://t.me/course2",
+                "attendance_url": "https://platform.com/attendance2"
+            }
+        ]
+    },
+    {
+        "name": "Дополнительные курсы",
+        "terms": [
+            {
+                "group": "Маркетинг",
+                "term": "Лето 2024",
+                "full_name": "Digital Маркетинг",
+                "short_name": "DIGITAL-2024",
+                "base_url": "https://platform.com/course3",
+                "tg_url": "https://t.me/course3",
+                "journal_url": "https://platform.com/journal3"
+            }
+        ]
+    }
+]

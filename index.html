@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Platforms</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">📚 Образовательные платформы</h1>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="all">Все платформы</button>
+                <button class="tab-btn" data-tab="favorites">⭐ Избранное</button>
+            </div>
+            <div class="search-container">
+                <input type="text" id="searchInput" class="search-input" placeholder="Поиск по платформам...">
+                <span class="search-icon">🔍</span>
+            </div>
+        </header>
+
+        <div class="controls">
+            <button id="toggleAll" class="btn-toggle">▼ Свернуть все</button>
+        </div>
+
+        <main id="platformsContainer" class="platforms-container">
+            <div class="loading">Загрузка данных...</div>
+        </main>
+
+        <footer class="footer">
+            <p>Обновлено: <span id="lastUpdate"></span></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
