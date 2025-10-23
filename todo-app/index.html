@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои задачи</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Шапка -->
+        <header class="header">
+            <h1 class="title">📋 Мои задачи</h1>
+            <button class="add-card-btn" id="addCardBtn">+ Новая карточка</button>
+        </header>
+
+        <!-- Основной контент -->
+        <main class="main">
+            <div class="cards-container" id="cardsContainer">
+                <!-- Карточки будут добавляться здесь -->
+            </div>
+        </main>
+
+        <!-- Модальное окно добавления карточки -->
+        <div class="modal" id="cardModal">
+            <div class="modal-content">
+                <h3>Создать новую карточку</h3>
+                <input type="text" id="cardTitleInput" placeholder="Название карточки" class="modal-input">
+                <div class="modal-actions">
+                    <button class="btn-secondary" id="cancelCardBtn">Отмена</button>
+                    <button class="btn-primary" id="saveCardBtn">Создать</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Модальное окно добавления задачи -->
+        <div class="modal" id="taskModal">
+            <div class="modal-content">
+                <h3>Добавить задачу</h3>
+                <input type="text" id="taskTextInput" placeholder="Текст задачи" class="modal-input">
+                <div class="modal-actions">
+                    <button class="btn-secondary" id="cancelTaskBtn">Отмена</button>
+                    <button class="btn-primary" id="saveTaskBtn">Добавить</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Модальное окно добавления подзадачи -->
+        <div class="modal" id="subtaskModal">
+            <div class="modal-content">
+                <h3>Добавить подзадачу</h3>
+                <input type="text" id="subtaskTextInput" placeholder="Текст подзадачи" class="modal-input">
+                <div class="modal-actions">
+                    <button class="btn-secondary" id="cancelSubtaskBtn">Отмена</button>
+                    <button class="btn-primary" id="saveSubtaskBtn">Добавить</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Модальное окно вложений -->
+        <div class="modal" id="attachmentModal">
+            <div class="modal-content">
+                <h3>Добавить вложение</h3>
+                <select id="attachmentType" class="modal-input">
+                    <option value="link">🔗 Ссылка</option>
+                    <option value="document">📄 Документ</option>
+                </select>
+                <input type="text" id="attachmentTitle" placeholder="Название" class="modal-input">
+                <input type="text" id="attachmentUrl" placeholder="URL или описание" class="modal-input">
+                <div class="modal-actions">
+                    <button class="btn-secondary" id="cancelAttachmentBtn">Отмена</button>
+                    <button class="btn-primary" id="saveAttachmentBtn">Добавить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

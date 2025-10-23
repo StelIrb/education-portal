@@ -3,37 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Educational Platforms</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Мои приложения</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .portal-container {
+            text-align: center;
+            color: white;
+        }
+        .portal-title {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .app-card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 20px;
+            padding: 40px 30px;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        .app-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+        }
+        .app-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .app-name {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .app-description {
+            color: #666;
+            line-height: 1.5;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <h1 class="title">📚 Образовательные платформы</h1>
-            <div class="tabs">
-                <button class="tab-btn active" data-tab="all">Все платформы</button>
-                <button class="tab-btn" data-tab="favorites">⭐ Избранное</button>
-            </div>
-            <div class="search-container">
-                <input type="text" id="searchInput" class="search-input" placeholder="Поиск по платформам...">
-                <span class="search-icon">🔍</span>
-            </div>
-        </header>
-
-        <div class="controls">
-            <button id="toggleAll" class="btn-toggle">▼ Свернуть все</button>
+    <div class="portal-container">
+        <h1 class="portal-title">🚀 Мои приложения</h1>
+        <div class="apps-grid">
+            <a href="links-app/index.html" class="app-card">
+                <div class="app-icon">📚</div>
+                <h2 class="app-name">Образовательные ссылки</h2>
+                <p class="app-description">Портал с ссылками на образовательные платформы и ресурсы</p>
+            </a>
+            
+            <a href="todo-app/index.html" class="app-card">
+                <div class="app-icon">✅</div>
+                <h2 class="app-name">Списки желаний</h2>
+                <p class="app-description">Создавайте списки и делитесь ими с друзьями</p>
+            </a>
         </div>
-
-        <main id="platformsContainer" class="platforms-container">
-            <div class="loading">Загрузка данных...</div>
-        </main>
-
-        <footer class="footer">
-            <p>Обновлено: <span id="lastUpdate"></span></p>
-        </footer>
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
