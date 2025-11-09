@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<CourseWorkData xmlns="https://stelirb.github.io/education-portal/coursework.xml">
+<CourseWorkData xmlns="https://stelirb.github.io/education-portal/coursework">
     <!-- Основная информация -->
     <University>Университет</University>
     <Faculty>Факультет</Faculty>
