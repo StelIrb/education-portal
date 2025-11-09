@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CourseWorkData xmlns="https://stelirb.github.io/education-portal/coursework.xml">
+    <!-- Основная информация -->
+    <University>Университет</University>
+    <Faculty>Факультет</Faculty>
+    <Department>Кафедра</Department>
+    
+    <!-- Работа -->
+    <WorkTheme>Тема работы</WorkTheme>
+    <WorkType>Тип работы</WorkType>
+    <Discipline>Дисциплина</Discipline>
+    <AcademicYear>Учебный год</AcademicYear>
+    
+    <!-- Студент -->
+    <Student>
+        <FullName>ФИО студента</FullName>
+        <OtherFullName>ИОФ</OtherFullName>
+        <Group>Группа</Group>
+        <StudentNumber>Номер студенческого</StudentNumber>
+    </Student>
+    
+    <!-- Преподаватели -->
+    <Supervisors>
+        <Supervisor>
+            <Name>Руководитель</Name>
+            <Degree>Учёная степень</Degree>
+        </Supervisor>
+        <NormController>Нормоконтролёр</NormController>
+        <DepartmentHead>
+            <Name>Заведующий кафедрой</Name>
+            <Degree>Учёная степень</Degree>
+        </DepartmentHead>
+    </Supervisors>
+    
+    <!-- Специальность -->
+    <Specialty>
+        <Code>Код специальности</Code>
+        <Name>Название специальности</Name>
+    </Specialty>
+    
+    <!-- Даты -->
+    <Dates>
+        <Assignment>Дата выдачи задания</Assignment>
+        <Submission>Срок сдачи</Submission>
+        <Defense>Дата защиты</Defense>
+    </Dates>
+    
+    <!-- Методология -->
+    <Research>
+        <Goal>Цель работы</Goal>
+        <Tasks>
+            <Task1>Задача 1</Task1>
+            <Task2>Задача 2</Task2>
+            <Task3>Задача 3</Task3>
+        </Tasks>
+        <Object>Объект исследования</Object>
+        <Subject>Предмет исследования</Subject>
+        <Methods>Методы исследования</Methods>
+    </Research>
+    
+    <!-- Результаты -->
+    <Results>
+        <ScientificNovelty>Научная новизна</ScientificNovelty>
+        <PracticalSignificance>Практическая значимость</PracticalSignificance>
+        <Approval>Апробация результатов</Approval>
+    </Results>
+    
+    <!-- Статистика -->
+    <Statistics>
+        <TotalPages>Количество страниц</TotalPages>
+        <TotalFigures>Количество рисунков</TotalFigures>
+        <TotalTables>Количество таблиц</TotalTables>
+        <TotalSources>Количество источников</TotalSources>
+        <TotalAppendices>Количество приложений</TotalAppendices>
+    </Statistics>
+    
+    <!-- Дополнительно -->
+    <Additional>
+        <City>Город</City>
+        <Keywords>Ключевые слова</Keywords>
+        <Abstract>Аннотация</Abstract>
+        <AbstractEN>Abstract</AbstractEN>
+    </Additional>
+</CourseWorkData>
